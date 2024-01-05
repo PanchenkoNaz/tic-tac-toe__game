@@ -75,6 +75,8 @@ html{
     color: #fff;
     border-radius: 0.2em;
     border: none;
+    cursor: pointer;
+    transition: 0.4s;
 }
 #new-game:hover {
     background-color: #fff;
