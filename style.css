@@ -46,7 +46,14 @@ html{
     position: relative;
     margin: 3em auto 0 auto;
     display: block;
-    font-size: 3vmin;
+    font-size: 3.5vmin;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#restart:hover{
+    background-color: #fff;
+    color: #0a0027;
 }
 .popup{
     background: linear-gradient(135deg, #8052ec, #d161ff);
@@ -68,6 +75,10 @@ html{
     color: #fff;
     border-radius: 0.2em;
     border: none;
+}
+#new-game:hover {
+    background-color: #fff;
+    color: #0a0027;
 }
 .popup.hide{
     display: none;
